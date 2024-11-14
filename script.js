@@ -39,11 +39,11 @@ function changeCurrency(){
     const currencyName = document.getElementById("currency-name")
    
     if (currencySelect.value = "dolar"){
-        currencyName.innerText = "Dolar Americano"
+        currencyName.innerHTML = "Dolar Americano"
     }
    
     if (currencySelect.value = "euro"){
-        currencyName.innerText = "Euro"
+        currencyName.innerHTML = "Euro"
     }
 }
 
